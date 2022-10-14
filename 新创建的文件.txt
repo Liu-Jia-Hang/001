@@ -9,4 +9,8 @@ git reset --hard HEAD^^   回到上上一个版本，依次类推
 git reset --hard HEAD~5   回到前五个版本去，数字可以自己修改
 git reset --hard 版本号   回到指定版本去，版本号可以通过log命令查询
 git reflog   查看操作日志
+cat 文件名     查看该文件的内容
+git checkout -- 文件名      撤销工作区或者暂存区的文件修改操作，注意当已经commit的时候该指令无效
+
+
 
