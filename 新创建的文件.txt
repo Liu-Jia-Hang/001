@@ -4,3 +4,9 @@ git add 文件名  上传修改的文件到暂存区
 git commit -m ‘注释’    正式推送文件到仓库，-m参数是加注释
 git log   查看每次commit的记录
 git log --pretty=oneline  简化显示commit记录
+git reset --hard HEAD^    回到上一个版本
+git reset --hard HEAD^^   回到上上一个版本，依次类推
+git reset --hard HEAD~5   回到前五个版本去，数字可以自己修改
+git reset --hard 版本号   回到指定版本去，版本号可以通过log命令查询
+git reflog   查看操作日志
+
