@@ -1,1 +1,6 @@
-111111
+git status   查看状态
+git init    初始化仓库
+git add 文件名  上传修改的文件到暂存区
+git commit -m ‘注释’    正式推送文件到仓库，-m参数是加注释
+git log   查看每次commit的记录
+git log --pretty=oneline  简化显示commit记录
