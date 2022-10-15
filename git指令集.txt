@@ -1,17 +1,17 @@
-git status   查看状态
-git init    初始化仓库
-git add 文件名  上传修改的文件到暂存区
+git status         	  查看状态
+git init 目录名    	  初始化指定目录为仓库
+git add 文件名     	  上传修改的文件到暂存区
 git commit -m ‘注释’    正式推送文件到仓库，-m参数是加注释
-git log   查看每次commit的记录
+git log   		  查看每次commit的记录
 git log --pretty=oneline  简化显示commit记录
 git reset --hard HEAD^    回到上一个版本
 git reset --hard HEAD^^   回到上上一个版本，依次类推
 git reset --hard HEAD~5   回到前五个版本去，数字可以自己修改
 git reset --hard 版本号   回到指定版本去，版本号可以通过log命令查询
-git reflog   查看操作日志
-cat 文件名     查看该文件的内容
-git checkout -- 文件名      撤销工作区或者暂存区的文件修改操作，注意当已经commit的时候该指令无效
-rm 文件名   删除文件，但是这个操作实际上保存在暂存区，如果想彻底删除，还需要再执行一次commit命令，更新仓库状态
+git reflog   		  查看操作日志
+cat 文件名     		  查看该文件的内容
+git checkout -- 文件名    撤销工作区或者暂存区的文件修改操作，注意当已经commit的时候该指令无效
+rm 文件名   		  删除文件，但是这个操作实际上保存在暂存区，如果想彻底删除，还需要再执行一次commit命令，更新仓库状态
 
 
 
