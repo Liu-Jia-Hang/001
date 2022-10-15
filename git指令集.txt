@@ -14,5 +14,16 @@ git checkout -- 文件名    撤销工作区或者暂存区的文件修改操作，注意当已经commit的
 rm 文件名   		  删除文件，但是这个操作实际上保存在暂存区，如果想彻底删除，还需要再执行一次commit命令，更新仓库状态
 
 
+ssh-keygen -t rsa -C '你的邮箱地址'     生成本地ssh文件
+ssh -T git@github.com       建立和github的ssh连接
+git remote add origin 仓库地址         关联本地仓库和远程仓库
+git branch -M main          创建远程主仓库名字为main
+git push -u origin main        将本地分支仓库上传到github远程主仓库，-u参数只在第一次使用，后面都不需要了
+git push origin main        将本地分支推到远程主分支
+git pull        拉取远程仓库分支内容
+git clone 远程仓库地址       克隆远程仓库到本地仓库
+
+
+
 
 
